@@ -1,7 +1,7 @@
 public class Problem2 {
 // Time Complexity : O(n+m)
 // Space Complexity :O(1)
-// Did this code successfully run on Leetcode :
+// Did this code successfully run on Leetcode :YEs
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix == null || matrix.length == 0){
             return false;

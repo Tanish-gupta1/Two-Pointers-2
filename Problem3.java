@@ -1,4 +1,7 @@
 public class Problem3 {
+    // Time Complexity : O(n+m)
+// Space Complexity :O(1)
+// Did this code successfully run on Leetcode :YES
     //approach here is that as we know both arrays are sorted and there last index would exist the highest value of that array
     //take 3 ptr 1-> ptr over 1st array 2-> ptr over 2nd arrat, 3 -> ptr over 1st array where we're gonna replace the value of max of ptr1 and ptr2
     public void merge(int[] nums1, int m, int[] nums2, int n) {
